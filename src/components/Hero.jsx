@@ -1,11 +1,18 @@
-import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
-import IconComponent from "./IconComponent";
+import {
+  FaGithubSquare,
+  FaLinkedin,
+  FaHtml5,
+  FaCss3Alt,
+  FaReact,
+} from "react-icons/fa";
+import { BiLogoJavascript, BiLogoTailwindCss } from "react-icons/bi";
+
 import photo from "../assets/photo.png";
 
 export const Hero = () => {
   return (
     <div className="py-8 px-6 bg-gray-100">
-      <div >
+      <div>
         <div className="m-auto py-8 text-center md:text-left flex md:flex-row flex-col justify-around">
           <div className="flex flex-col justify-center">
             <h1 className="text-4xl font-bold drop-shadow-xl py-6">
@@ -16,11 +23,7 @@ export const Hero = () => {
               Valencia, Spain. 📍
             </p>
             <div className="p-6 flex justify-center md:justify-start md:px-0">
-              <a
-                href="https://www.linkedin.com/in/solves8/"
-                target="_blank"
-                
-              >
+              <a href="https://www.linkedin.com/in/solves8/" target="_blank">
                 <FaLinkedin size={36} />
               </a>
               <a
@@ -32,18 +35,32 @@ export const Hero = () => {
               </a>
             </div>
           </div>
-          <div >
-            <img className="hidden md:block drop-shadow-2xl rounded-full max-w-xs" src={photo} alt="Me" />
+          <div>
+            <img
+              className="hidden md:block drop-shadow-2xl rounded-full max-w-xs"
+              src={photo}
+              alt="Me"
+            />
           </div>
         </div>
-        
-        <div className="p-1 m-1 flex justify-around md:justify-center items-center text-left">
-          <p className="text-lg md:px-4 drop-shadow-md">My tech stack</p>
-          <IconComponent iconName="html" />
-          <IconComponent iconName="css" />
-          <IconComponent iconName="js" />
-          <IconComponent iconName="tailwind" />
-          <IconComponent iconName="react" />
+
+        <div className="p-1 m-1 flex flex-wrap justify-center items-center text-left">
+          <p className="text-lg md:px-4 drop-shadow-md">My tech stack |</p>
+          <div className="rounded-full bg-white shadow-md p-3 mx-4">
+            <FaHtml5 className="text-orange-600" size={40} />
+          </div>
+          <div className="rounded-full bg-white shadow-md p-3 mx-4">
+            <FaCss3Alt className="text-blue-500" size={40} />
+          </div>
+          <div className="rounded-full bg-white shadow-md p-3 m-6">
+            <BiLogoJavascript className="text-yellow-400" size={40} />
+          </div>
+          <div className="rounded-full bg-white shadow-md p-3 mx-4">
+            <BiLogoTailwindCss className="text-cyan-500" size={40} />
+          </div>
+          <div className="rounded-full bg-white shadow-md p-3 mx-4">
+            <FaReact className="text-blue-400" size={40} />
+          </div>
         </div>
       </div>
     </div>

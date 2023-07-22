@@ -11,7 +11,7 @@ import photo from "../assets/photo.png";
 
 export const Hero = () => {
   return (
-    <div className="py-8 px-6 bg-gray-100">
+    <div id="hero" className="py-8 px-6 bg-gray-100">
       <div>
         <div className="m-auto py-8 text-center md:text-left flex md:flex-row flex-col justify-around">
           <div className="flex flex-col justify-center">

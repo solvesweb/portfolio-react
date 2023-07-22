@@ -2,7 +2,7 @@ import aboutme from '../assets/aboutme.jpg'
 
 export const AboutMe = () => {
   return (
-    <div className="bg-gray-100 py-8 px-6 flex flex-col-reverse md:flex-row gap-8 justify-center items-center text-center md:text-left">
+    <div id="about" className="bg-gray-100 py-8 px-6 flex flex-col-reverse md:flex-row gap-8 justify-center items-center text-center md:text-left">
       <div className='md:py-10 flex justify-center items-center'>
         <img className='max-h-80 rounded-2xl' src={aboutme} alt="About me" />
       </div>

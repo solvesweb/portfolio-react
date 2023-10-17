@@ -11,7 +11,7 @@ export const AboutMe = () => {
       </div>
 
       <div className="flex flex-col justify-center max-w-xl ">
-        <h2 className="pb-4 text-sm uppercase font-bold text-teal-400">
+        <h2 className="pb-4 text-xl uppercase font-bold text-teal-400">
           About me
         </h2>
         <h3 className="pb-4 text-2xl font-bold">

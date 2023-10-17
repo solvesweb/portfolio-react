@@ -5,8 +5,8 @@ export const Contact = () => {
   return (
     <div id="contact" className="bg-white flex flex-col justify-center items-center py-16 px-6">
       <div className="pb-8 text-center md:text-left">
-        <h2 className='pb-4 text-sm uppercase font-bold text-teal-400'>Contact</h2>
-        <h3 className="font-bold text-xl drop-shadow-md">Feel free to reach out! Let's connect! 👇</h3>
+        <h2 className='pb-4 text-xl uppercase font-bold text-teal-400'>Contact</h2>
+        <h3 className="font-bold text-2xl drop-shadow-md">Feel free to reach out! Let's connect! 👇</h3>
       </div>
       <div className="flex flex-col md:flex-row gap-8">
         <div className="flex">

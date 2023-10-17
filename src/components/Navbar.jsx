@@ -17,6 +17,15 @@ export const Navbar = () => {
     handleNav();
   };
 
+  const handleClickStack = () => {
+    const element = document.getElementById("stack");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+    
+    handleNav();
+  };
+
   const handleClickProjects = () => {
     const element = document.getElementById("projects");
     if (element) {
@@ -50,6 +59,9 @@ export const Navbar = () => {
       <ul className="hidden font-semibold uppercase md:flex">
         <li className="p-4">
           <button onClick={handleClickHome}>HOME</button>
+        </li>
+        <li className="p-4">
+          <button onClick={handleClickStack}>STACK</button>
         </li>
         <li className="p-4">
           <button onClick={handleClickProjects}>PROJECTS</button>

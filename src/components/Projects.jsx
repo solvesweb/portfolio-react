@@ -4,9 +4,9 @@ export const Projects = () => {
   return (
     <div
       id="projects"
-      className="bg-white p-8 flex flex-col justify-center items-center my-8"
+      className="bg-white flex flex-col justify-center items-center m-4 p-4"
     >
-      <h2 className="pb-4 text-sm text-left uppercase font-bold text-teal-400">
+      <h2 className="p-4 text-xl text-left uppercase font-bold text-teal-400">
         Projects
       </h2>
       <CardProject />

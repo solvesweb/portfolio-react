@@ -44,22 +44,6 @@ export const Hero = () => {
             />
           </div>
         </div>
-
-        {/* <div className="rounded-full bg-white shadow-md p-3 mx-4">
-            <FaHtml5 className="text-orange-600" size={40} />
-          </div>
-          <div className="rounded-full bg-white shadow-md p-3 mx-4">
-            <FaCss3Alt className="text-blue-500" size={40} />
-          </div>
-          <div className="rounded-full bg-white shadow-md p-3 m-6">
-            <BiLogoJavascript className="text-yellow-400" size={40} />
-          </div>
-          <div className="rounded-full bg-white shadow-md p-3 mx-4">
-            <BiLogoTailwindCss className="text-cyan-500" size={40} />
-          </div>
-          <div className="rounded-full bg-white shadow-md p-3 mx-4">
-            <FaReact className="text-blue-400" size={40} />
-          </div> */}
       </div>
     </div>
   );

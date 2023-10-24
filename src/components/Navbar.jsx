@@ -57,19 +57,19 @@ export const Navbar = () => {
     <div className="flex justify-between items-center h-20 mx-auto px-8 text-gray-900">
       <h1 className="w-full text-2xl font-bold">Solves.</h1>
       <ul className="hidden font-semibold uppercase md:flex">
-        <li className="p-4">
+        <li className="p-4 hover:bg-teal-400 hover:text-white">
           <button onClick={handleClickHome}>HOME</button>
         </li>
-        <li className="p-4">
+        <li className="p-4 hover:bg-teal-400 hover:text-white">
           <button onClick={handleClickStack}>STACK</button>
         </li>
-        <li className="p-4">
+        <li className="p-4 hover:bg-teal-400 hover:text-white">
           <button onClick={handleClickProjects}>PROJECTS</button>
         </li>
-        <li className="p-4">
+        <li className="p-4 hover:bg-teal-400 hover:text-white">
           <button onClick={handleClickAbout}>ABOUT</button>
         </li>
-        <li className="p-4">
+        <li className="p-4 hover:bg-teal-400 hover:text-white">
           <button onClick={handleClickContact}>CONTACT</button>
         </li>
       </ul>

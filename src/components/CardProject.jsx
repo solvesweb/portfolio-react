@@ -3,6 +3,7 @@ import movies from "../assets/movies.png";
 import gifapp from "../assets/gifapp.png";
 import tindog from "../assets/tindog.png";
 import ukiyo from "../assets/ukiyo.png";
+import app from "../assets/app.png";
 
 import { IconBox } from "./IconBox";
 import { FaHtml5 } from "react-icons/fa";
@@ -127,6 +128,31 @@ export const CardProject = () => {
           </p>
           <p className="m-2 px-2 font-bold uppercase border-2 border-black">
             Shopify
+          </p>
+        </div>
+        <button className="bg-teal-400 hover:bg-gray-300 text-white font-bold py-2 px-4 rounded mb-2 cursor-not-allowed">
+          Go Demo
+        </button>
+      </div>
+
+      <div className="rounded-md bg-gray-100 shadow-md pb-4 max-w-md">
+        <h3 className="pt-4 text-xl font-bold">App-Scouting</h3>
+        <img className="py-4" src={app} alt="" />
+        <div className="flex justify-center text-xs pb-4">
+          <p className="m-2 px-2 font-bold uppercase border-2 border-black">
+            Html5
+          </p>
+          <p className="m-2 px-2 font-bold uppercase border-2 border-black">
+            Css
+          </p>
+          <p className="m-2 px-2 font-bold uppercase border-2 border-black">
+            JavaScript
+          </p>
+          <p className="m-2 px-2 font-bold uppercase border-2 border-black">
+            Firebase
+          </p>
+          <p className="m-2 px-2 font-bold uppercase border-2 border-black">
+            React
           </p>
         </div>
         <button className="bg-teal-400 hover:bg-gray-300 text-white font-bold py-2 px-4 rounded mb-2 cursor-not-allowed">
